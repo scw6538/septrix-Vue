@@ -5,6 +5,7 @@
   "author": "scw6538 <Stephenw.91@outlook.com>",
   "private": true,
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
